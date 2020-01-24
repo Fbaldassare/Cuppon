@@ -1,0 +1,101 @@
+h1, h2, h3, h4, h5, h6, p, a, li{
+    font-family: 'Roboto', sans-serif;
+}
+
+h5{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 300;
+}
+
+.navbar-brand img{
+    max-width: 100px;
+    text-align: center;
+}
+
+/*  precios*/
+.price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.price li{
+    margin-left: 20px;
+    list-style: none;
+    padding-inline-start: 0;
+    display: inline-block;
+}
+
+.price li:first-child{
+    font-weight: 300;
+    font-size: 0.rem;
+}
+
+.price li:last-child{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #28A745;
+}
+
+/* cajas del mismo alto */
+
+.container__stretch{
+    display: flex;
+    align-items: stretch;
+}
+
+/* fontawesome */
+.fab{
+    font-size: 3rem;   
+}
+
+#contact__us__section{
+    width: 100%;
+    height: auto;
+}
+
+.form-group{}
+
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+}
+
+footer .container .row{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+footer .container .row  img{
+    width: 100px;
+}
+
+
+
+/* Mis media Query */
+@media (max-width: 575.98px) { 
+
+
+ }
+
+@media (min-width: 576px){
+ }
+
+@media (min-width: 768px) {
+
+ }
+
+@media (min-width: 992px){
+
+ }
+
+@media (min-width: 1200px) { 
+
+}
